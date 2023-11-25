@@ -11,11 +11,11 @@ function App() {
       <h1 className="text-center text-3xl font-bold text-gray-500">
         preview schema
       </h1>
-      <div className="flex my-3 space-x-5">
-        <div className="w-1/2 border h-screen rounded">
+      <div className="flex md:flex-row flex-col my-3 gap-5">
+        <div className="md:w-1/2 border md:h-screen rounded">
           <InputForm />
         </div>
-        <div className="w-1/2 border h-screen rounded">
+        <div className="md:w-1/2 border md:h-screen rounded">
           <PreviewForm />
         </div>
       </div>
