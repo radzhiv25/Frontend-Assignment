@@ -1,12 +1,59 @@
 // import React from 'react'
+import { useState } from "react"
 
-export const PreviewForm = () => {
+export const PreviewForm = ({preview}) => {
+  // const [data, setData] = useState({})
+
+  const renderFormItem = (item) => {
+    switch(item.uiType){
+      case 'Input':
+        return(
+          <input 
+          type="text"
+          placeholder={item.placeholder}
+          className="border p-3 rounded-md w-full"
+          />
+        )
+        case 'Select':
+        return(
+          <select
+          className="p-2 border rounded-md w-max"
+          >
+            {
+              item.validate.options.map((option) => {
+                return(
+                  <option key={option.value}>
+                    {option.label}
+                  </option>
+                )
+              })
+            }
+          </select>
+        )
+        // case 'Radio':
+        //   return (
+            
+        //   )
+    }
+  }
+
+  console.log(renderFormItem)
+
+  const colors = ['red', 'blue', 'green'];
   return (
-    <div className="text-center font-bold">
-        <h1>Preview Form</h1>
-        <form action="">
-          <label htmlFor="">{pizza_name}</label>
-        </form>
+    <div className="h-auto">
+        {!preview ? <p>N/A</p> : <p>{preview}</p>}
+        <select name="" id="" className="border p-1 rounded">
+          {
+            colors.map((color) => {
+              return(
+                <option key={color} value={color}>
+                  {color}
+                </option>
+              )
+            })
+          }
+        </select>
     </div>
   )
 }
