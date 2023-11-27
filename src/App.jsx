@@ -567,7 +567,7 @@ const pastaSchema =
 ]
 
 const App = () => {
-  // 
+  // pizzaSchema is the default JSON
   const [preview, setPreview] = useState(pizzaSchema);
 
   const handleJsonInputChange = (event) => {
