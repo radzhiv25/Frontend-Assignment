@@ -7,7 +7,7 @@
 
 ## Discover the Edge 🚀
 
-Create dynamic forms in React with ease using JSON configurations. Define form elements, validations, and dependencies in a structured JSON format. Utilize React components to dynamically render the form based on the JSON schema, enabling a flexible and maintainable approach to handle various form requirements in your application.
+Create dynamic forms in React with using JSON Schema. Define form elements, validations, and dependencies in a structured JSON format. Utilize React components to dynamically render the form based on the JSON schema, enabling a flexible and maintainable way of creating dynamic forms using this react application.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Create dynamic forms in React with ease using JSON configurations. Define form e
 
 ## Introduction
 
-Effortlessly implement dynamic forms in React by leveraging JSON configurations. Craft structured schemas with form elements, validations, and dependencies, allowing seamless rendering through React components. This approach ensures a versatile and maintainable solution to address diverse form requirements in your application.
+Effortlessly implement dynamic forms in React by leveraging JSON Schema. Craft structured schemas with form elements, validations, and dependencies, allowing seamless rendering through React components. Using this application create amazing form with your own customizations and configurations in the application code.
 
 ## Features 
 
